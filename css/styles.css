@@ -1,0 +1,14 @@
+h2{
+
+    color:rgb(234, 6, 6);
+}
+section{
+    background-color: bisque;
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 20%;
+    padding-right: 5%;
+    background:-moz-repeating-radial-gradient();
+    width:100%;
+    height: 100vh;
+}
