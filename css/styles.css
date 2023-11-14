@@ -3,12 +3,22 @@ h2{
     color:rgb(234, 6, 6);
 }
 section{
-    background-color: bisque;
-    justify-content: center;
-    padding-left: 20%;
-    padding-top: 20%;
-    padding-right: 5%;
-    background:-moz-repeating-radial-gradient();
+    background-image:url('./images/frozen-bubble-1943224_1280.jpg');
+    padding-left: 22%;
+    padding-top: 15%;
+    padding-bottom: 20%;
     width:100%;
     height: 100vh;
+    box-shadow: 80px;
 }
+.calc{
+    box-shadow: 80px;
+    border: solid rgb(241, 231, 231);
+    border-radius: 5%;
+    background-color: rgb(232, 238, 244);
+    width: 60%;
+    justify-content: center;
+    display: block;
+    height: 40vh;
+    text-align: center;
+} 

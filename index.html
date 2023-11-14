@@ -7,15 +7,17 @@
     </head>
 <body>
 <section>    
+<div class ="calc"> 
 
-    <h2>Temperature Converter</h2>
-    <p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+    <h2 class="display-5 text-black-50 text-center">Temperature Converter</h2>
+    <p class="fw-bold text-center">Type a value in the Fahrenheit field to convert the value to Celsius:</p>
     
     <p>
-        <label>Fahrenheit</label>
+        <label class="text-center">Fahrenheit</label>
         <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
     </p>
-    <p>Celcius: <span id="outputCelcius"></span></p>
+    <p class = 'lead fw-bold text-success'>Celcius: <span id="outputCelcius"></span></p>
+</div>
     
 </section>
 <script src = "index.js">
